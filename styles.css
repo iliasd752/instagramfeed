@@ -23,12 +23,14 @@ header h1 {
 }
 
 .container {
-    width: 600px;
+    width: 500px;
     margin: auto;
 }
 
 .post img {
-    width: 100%;
+    width: 500px;
+    height: 300px;
+    max-width: 100%;
 }
 
 .post h2, .post p {
@@ -39,6 +41,8 @@ header h1 {
 .post-header div:first-child{
     display: inline-block;
     width: 80%;
+    padding: 7px;
+
 }
 
 .post-header div:last-child {
@@ -47,4 +51,8 @@ header h1 {
     text-align: right;
     padding: 10px;
     color: gray;
+}
+
+.post:nth-child(2) img {
+   height: 400px;
 }
